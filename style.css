@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+button{
+    border-radius: 10px;
+ 
+}
+
+
+.tudo{
+
+    width: 22vw;
+    height: 80vh;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     background-color: rgb(255, 255, 255);
+     border-radius: 3%;
+     position: relative;
+   
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.CE{
+    background-color: red;
+}
+
+ul li{
+    list-style: none;
+}
+
+input{
+    width: 18vw;
+    /* margin-bottom:  px; */
+    /* border: 0cm; */
+    height: 60px;
+    font-size: 40px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1px;
+    border-radius: 10px;
+}
+
+
+ 
+
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    box-shadow: 5px 5px 9px 3px rgb(196, 196, 196);
+    font-size: larger;
+}
+
+#bCE, #b0, #calcular{
+    width: 115px;
+    height: 50px;
+}
+
+#calcular{
+    background-color:blue ;
+}
+.calculadora{
+    border: 10px chartreuse;
+}
+
+.bmais{
+    background-color: rgb(133, 230, 88);
+    position: absolute;
+    height: 110px;
+    left: 216px;
+}
+
+@media (max-width: 640px) {
+  
+    .tudo{
+
+        width: 80vw;
+        height: 55vh;
+        border: 1px solid rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         background-color: rgb(255, 255, 255);
+         border-radius: 10px;
+         position: relative;
+       
+    }
+
+    button{
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        box-shadow: 5px 5px 9px 3px rgb(196, 196, 196);
+        font-size: larger;
+    }
+
+    input{
+        width: 54vw;
+        /* margin-bottom:  px; */
+        /* border: 0cm; */
+        height: 60px;
+        font-size: 40px;
+        text-align: right;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 1px;
+        border-radius: 10px;
+    }
+
+    .bmais{
+        background-color: rgb(133, 230, 88);
+        position: absolute;
+        height: 110px;
+        left: 251px;
+    }
+
+
+  }
