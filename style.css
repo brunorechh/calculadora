@@ -84,50 +84,62 @@ button{
     left: 216px;
 }
 
-@media (max-width: 640px) {
-  
-    .tudo{
 
+/* Para telas menores que 768px (tablets e celulares grandes) */
+@media (max-width: 768px) {
+    .tudo {
+        width: 60vw;
+        height: 70vh;
+    }
+    
+    input {
+        width: 50vw;
+        font-size: 30px;
+    }
+    
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: medium;
+    }
+    
+    #bCE, #b0, #calcular {
+        width: 90px;
+        height: 40px;
+    }
+    
+    .bmais {
+        left: auto;
+        height: 90px;
+    }
+}
+
+/* Para telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+    .tudo {
         width: 80vw;
-        height: 55vh;
-        border: 1px solid rgb(255, 255, 255);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-         background-color: rgb(255, 255, 255);
-         border-radius: 10px;
-         position: relative;
-       
+        height: 60vh;
     }
-
-    button{
-        width: 50px;
-        height: 50px;
-        margin: 5px;
-        color: rgb(255, 255, 255);
-        background-color: black;
-        box-shadow: 5px 5px 9px 3px rgb(196, 196, 196);
-        font-size: larger;
+    
+    input {
+        width: 70vw;
+        font-size: 25px;
     }
-
-    input{
-        width: 54vw;
-        /* margin-bottom:  px; */
-        /* border: 0cm; */
-        height: 60px;
-        font-size: 40px;
-        text-align: right;
-        background-color: rgb(255, 255, 255);
-        margin-bottom: 1px;
-        border-radius: 10px;
+    
+    button {
+        width: 35px;
+        height: 35px;
+        font-size: small;
+        margin: 3px;
     }
-
-    .bmais{
-        background-color: rgb(133, 230, 88);
-        position: absolute;
-        height: 110px;
-        left: 251px;
+    
+    #bCE, #b0, #calcular {
+        width: 75px;
+        height: 35px;
     }
-
-
-  }
+    
+    .bmais {
+        left: auto;
+        height: 80px;
+    }
+}

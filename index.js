@@ -116,6 +116,7 @@ document.getElementById("calcular").onclick=botaocalcular
 function botaoapagar(){
     numero = document.getElementById("bCE").innerText
     document.getElementById("display").value=""
+     document.getElementById("display2").value=""
 }
 document.getElementById("bCE").onclick=botaoapagar
 
